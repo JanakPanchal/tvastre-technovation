@@ -532,7 +532,7 @@ section {
     font-weight: 600;
     letter-spacing: -0.5px;
     line-height: 1.2;
-    background: linear-gradient(0deg, #0078d4, #0078d4);
+    background: linear-gradient(0deg, #ffffff, #0078d4);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
