@@ -2079,7 +2079,79 @@ footer .container {
 }
 
 .container.narrow {
-    max-width: 900px;
+    max-width: 1100px;
+}
+
+.legal-layout {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    gap: 3rem;
+    align-items: start;
+}
+
+.legal-sidebar {
+    position: sticky;
+    top: 100px;
+    background: white;
+    padding: 2rem;
+    border-radius: var(--border-radius-md);
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow-sm);
+}
+
+.legal-sidebar h4 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--primary);
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+
+.sidebar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-nav li {
+    margin-bottom: 0.5rem;
+}
+
+.sidebar-nav a {
+    display: block;
+    padding: 0.75rem 1rem;
+    color: var(--text-soft);
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 500;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    border-left: 3px solid transparent;
+}
+
+.sidebar-nav a:hover {
+    background: var(--bg-soft);
+    color: var(--primary);
+    padding-left: 1.25rem;
+}
+
+.sidebar-nav a.active {
+    background: var(--primary-soft);
+    color: var(--primary);
+    border-left-color: var(--primary);
+    font-weight: 600;
+}
+
+@media (max-width: 1024px) {
+    .legal-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .legal-sidebar {
+        position: static;
+        margin-bottom: 2rem;
+    }
 }
 
 .policy-card {
@@ -2090,35 +2162,42 @@ footer .container {
     border: 1px solid var(--border-color);
 }
 
-.policy-card h2 {
-    margin: 3rem 0 1.5rem;
-    color: var(--text-main);
-    font-size: 1.8rem;
-    border-bottom: 2px solid var(--primary-soft);
-    padding-bottom: 0.5rem;
-    display: inline-block;
-}
-
-.policy-card h3 {
-    margin: 2rem 0 1rem;
-    color: var(--text-main);
-    font-size: 1.4rem;
-}
-
 .policy-card p {
-    margin-bottom: 1.5rem;
-    line-height: 1.8;
+    margin-bottom: 2rem;
+    line-height: 2;
     color: var(--text-soft);
+    font-size: 1.15rem;
 }
 
 .policy-card ul {
-    margin-bottom: 2rem;
-    padding-left: 1.5rem;
+    margin-bottom: 2.5rem;
+    padding-left: 2rem;
 }
 
 .policy-card li {
-    margin-bottom: 0.8rem;
+    margin-bottom: 1.2rem;
     color: var(--text-soft);
+    line-height: 1.8;
+    font-size: 1.15rem;
+}
+
+.policy-card h2 {
+    margin: 4rem 0 2rem;
+    color: var(--text-main);
+    font-size: 2.2rem;
+    border-bottom: 2px solid var(--primary-soft);
+    padding-bottom: 0.75rem;
+    display: block;
+    font-family: var(--font-heading);
+    font-weight: 700;
+}
+
+.policy-card h3 {
+    margin: 3rem 0 1.5rem;
+    color: var(--text-main);
+    font-size: 1.6rem;
+    font-family: var(--font-heading);
+    font-weight: 600;
 }
 
 .policy-highlight {
