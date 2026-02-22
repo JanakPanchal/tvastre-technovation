@@ -60,7 +60,7 @@ All canonical tags point to `https://your-domain.com/`. Update with your real do
 
 ### 3. **Add Logo & OG Images**
 Replace or create:
-- `/logo.png` - Your company logo (200x200px minimum)
+- `/logo.svg` - Your company logo (200x200px minimum)
 - `/og-image.png` - Social sharing image (1200x630px recommended)
 
 ### 4. **Update Social Media Links**
