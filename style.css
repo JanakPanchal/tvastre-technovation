@@ -532,7 +532,7 @@ section {
     font-weight: 600;
     letter-spacing: -0.5px;
     line-height: 1.2;
-    background: linear-gradient(0deg, #ffffff, #0078d4);
+    background:  #0078d4;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -546,7 +546,7 @@ section {
     transform: translateX(-50%);
     width: 120px;
     height: 4px;
-    background: linear-gradient(90deg, transparent, #0078d4, #005a9e, transparent);
+    background:  #0078d4;
     border-radius: 2px;
     animation: expandWidth 0.8s ease-out;
 }
@@ -562,7 +562,7 @@ section {
 }
 
 .section-title p {
-    color: #ccc;
+    color: #555252 !important;
     max-width: 600px;
     margin: 0 auto;
     font-size: 1.05rem;
@@ -1813,7 +1813,7 @@ footer .container {
     border-color: rgba(94, 92, 230, 0.2);
 }
 
-.product-info-panel h2 {
+.product-info-panel h2{
     font-size: 4rem;
     font-weight: 800;
     margin-bottom: 1.5rem;
@@ -1822,6 +1822,7 @@ footer .container {
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    color:#005a9e !important;
 }
 
 .product-tagline {

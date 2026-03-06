@@ -149,14 +149,14 @@ In index.html footer and schema.org data, update social media URLs:
 - "software development company"
 - "AI and machine learning services"
 - "financial services consulting"
-- "automotive technology solutions"
+- "Manufacturing technology solutions"
 - "B2B trading platform"
 - "SetuBuzz supply chain"
 
 ### Long-Tail Keywords
 - "custom software development company in Maharashtra"
 - "AI consulting services for enterprises"
-- "automotive IoT solutions providers"
+- "Manufacturing IoT solutions providers"
 - "B2B marketplace for manufacturers"
 - "supply chain management software"
 
